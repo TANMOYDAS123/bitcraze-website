@@ -5,4 +5,4 @@ services:
 before_install:
   - docker pull bitcraze/web-builder
 script:
-  - docker run --rm -v ${PWD}:/module bitcraze/web-builder ./tools/build/build
+  - docker run --rm -v ${PWD}:/module kukur bitcraze/web-builder ./tools/build/build
